@@ -1,0 +1,10 @@
+*{padding: 0;
+margin: 0;}
+body{background-color: orangered;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{ gap: 40px;
+padding-top: 200px;
+display: flex;
+justify-content: center;}
+

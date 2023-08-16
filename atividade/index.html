@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- atividade 1  -->
+    <h1 id="atividade1">olá mundo</h1>
+    <button type="button" onclick="document.getElementById('atividade1').innerHTML= 'hello word'">click here</button>
+
+    <!-- atividade 2  -->
+    <img id="atividade2" src="gato.jpg">
+    <div class="atividade2">
+        <button type="button" onclick="document.getElementById('atividade2').src='cachorro.jpg'">Ver outra opção</button>
+        <button type="button" onclick="document.getElementById('atividade2').src='gato.jpg'">voltar</button>
+    </div>
+    
+    <!-- atividade 3  -->
+    <p id="atividade3">Muita gente sabe que a palavra text, em inglês, quer dizer “texto”. Mas, de um tempo pra cá, o termo text também tem sido usado como verbo, com o significado de “escrever mensagem pelo celular” ou “mandar um SMS”.</p>
+    <button type="button" onclick="document.getElementById('atividade3').style.display = 'none'"> Close text</button>
+
+    <!-- atividade 4  -->
+    <h5>a resposta da atividade 4 é:</h5>
+    <p id="atividade4"></p>
+    <script>document.getElementById("atividade4").innerHTML = 15 * 2;</script>
+
+    <!-- atividade 5  -->
+    <h3 id="atividade5"></h3>
+
+    <!-- atividade 7 -->
+    <h3 id="atividade7"></h3>
+
+    <!-- atividade 8 -->
+    <h3 id="atividade8"></h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
